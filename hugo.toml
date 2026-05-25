@@ -1,0 +1,40 @@
+baseURL = "https://blog.catsandbox.app/"
+title = "瘋狂貓沙箱"
+theme = "PaperMod"
+languageCode = "zh-tw"
+defaultContentLanguage = "zh-tw"
+paginate = 10
+
+[params]
+  env = "production"
+  description = "我的技術筆記和學習記錄分享"
+  author = "婷喵 TingMew"
+  defaultTheme = "light"       # light / dark / auto
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "Hi 👋"
+  Content = "這裡是我的技術筆記和學習記錄"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/c4t5and6ox"
+
+[menu]
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "標籤"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "關於"
+    url = "/about/"
+    weight = 3
